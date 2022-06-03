@@ -14,7 +14,7 @@ const io=socketIO(server);
 
 app.use(express.static(publicPath));
 
-console.log(path.join(__dirname+'/public/demo.html'));
+console.log(path.join(__dirname+'/public/demo.html'));-
 app.get('/',(req,res)=>{
      
     res.sendFile(path.join(__dirname+'/public/demo.html'));

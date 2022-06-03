@@ -14,12 +14,11 @@
     .container{
       max-width: 900px;
       background-color: bisque;
-      background: url("./../s1.PNG");
+      /* background: url("./../s1.PNG");
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
-      /* background-image: url("./../s1.PNG") ; */
-      /* background-repeat: no-repeat, repeat; */
+      background-size: cover; */
+      
       margin: auto;
       height: 60vh;
       padding: 25px;
